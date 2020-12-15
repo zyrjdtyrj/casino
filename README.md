@@ -11,7 +11,7 @@ Configure connection to mysql server in file `.env`.
 
 Create database structure and fixtures.
 ```
-php artisan migrate:install
+php artisan migrate
 php artisan db:seed
 ```
 
